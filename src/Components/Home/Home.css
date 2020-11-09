@@ -30,12 +30,15 @@
 }
 
 .about-us-section button {
-    height: 45px;
-    width: 120px;
+    height: 50px;
+    width: 110px;
     background: #fafafa;
+    font-size: 12px;
     color: #FF6400;
     border: 2px solid #FF6400;
     font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
 }
 
 .about-us-section button:hover {
