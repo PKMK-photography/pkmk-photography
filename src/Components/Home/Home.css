@@ -1,0 +1,57 @@
+.home {
+    height: 100vh;
+    background: #fafafa;
+}
+
+.home h1 {
+    font-size: 30px;
+}
+
+.home-image {
+    height: 70vh;
+    width: 100%;
+    background-image: url('../../assets/images/pkmk-filler-1.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.about-us-section {
+    box-sizing: border-box;
+    padding: 70px 20px;
+}
+
+.intro-blurb {
+    margin-bottom: 25px;
+}
+
+.book-with-us {
+    color: black;
+    font-weight: bold;
+}
+
+.about-us-section button {
+    height: 45px;
+    width: 120px;
+    background: #fafafa;
+    color: #FF6400;
+    border: 2px solid #FF6400;
+    font-weight: bold;
+}
+
+.about-us-section button:hover {
+    background: #FF6400;
+    color: white;
+}
+
+.our-work-image {
+    height: 70vh;
+    box-sizing: border-box;
+    background-image: url('../../assets/images/pkmk-filler-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.our-work-section {
+    text-align: center;
+    padding: 70px 20px;
+}
