@@ -55,6 +55,22 @@
 }
 
 .our-work-section {
-    text-align: center;
     padding: 70px 20px;
+}
+
+.our-work-flex {
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #FF6400;
+    border-bottom: 1px solid #FF6400;
+}
+
+.our-work-flex img {
+    height: 40vw;
+    width: 40vw;
+    margin: 10px 0;
 }

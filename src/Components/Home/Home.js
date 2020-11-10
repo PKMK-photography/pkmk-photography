@@ -1,5 +1,8 @@
 import React from 'react';
-import duneImage from '../../assets/images/pkmk-filler-1.jpg';
+import filler3 from '../../assets/images/pkmk-filler-3.jpg';
+import filler4 from '../../assets/images/pkmk-filler-4.jpg';
+import filler5 from '../../assets/images/pkmk-filler-5.jpg';
+import filler6 from '../../assets/images/pkmk-filler-6.jpg';
 import './Home.css';
 
 const Home = props => (
@@ -15,6 +18,32 @@ const Home = props => (
         <div className='our-work-image'/>
         <section className='our-work-section'>
             <h1>Get a Feel for Our Work</h1>
+            <section className='our-work-flex'>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+                <img src={filler3} alt='portfolio image'/>
+                <img src={filler4} alt='portfolio image'/>
+                <img src={filler5} alt='portfolio image'/>
+                <img src={filler6} alt='portfolio image'/>
+            </section>
         </section>
     </main>
 )
