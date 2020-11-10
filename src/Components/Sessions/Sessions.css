@@ -1,0 +1,39 @@
+.sessions {
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+.session-heading {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: lightgray;
+}
+
+.session-info {
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-top: 1px solid #FF6400;
+}
+
+.session-info h1 {
+    font-size: 24px;
+}
+
+.standard-session-list {
+    box-sizing: border-box;
+    padding-left: 45px;
+    margin-bottom: 50px;
+    list-style-type: disc;
+}
+
+.specialty-session-list {
+    box-sizing: border-box;
+    padding-left: 45px;
+    list-style-type: disc;
+}
+
+.specialty-session-list p {
+    width: 90%;
+    margin-left: 10%;
+}

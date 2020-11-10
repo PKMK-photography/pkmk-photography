@@ -21,3 +21,9 @@ p {
   line-height: 2em;
   letter-spacing: 1px;
 }
+
+li {
+  color: #646464;
+  font-size: 18px;
+  margin: 25px 0;
+}

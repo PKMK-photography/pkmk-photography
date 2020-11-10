@@ -61,11 +61,6 @@ const Home = props => (
             <div className='box-underline'/>
         </section>
         <div className='ending-image'/>
-        <section className='schedule-appointment-section'>
-            <h1>Schedule Appointment</h1>
-            <button>START NOW</button>
-            <a className='social-link' target='_blank' href='https://www.instagram.com/pkmkphotos/'>INSTAGRAM</a>
-        </section>
     </main>
 )
 
