@@ -1,0 +1,17 @@
+.portfolio {
+    box-sizing: border-box;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 28px;
+}
+
+.portfolio-heading {
+    color: lightgray;
+}
+
+.portfolio img {
+    height: 150px;
+}
