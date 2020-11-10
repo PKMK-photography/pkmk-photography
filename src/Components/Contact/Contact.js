@@ -19,20 +19,20 @@ const Contact = props => {
                 <label>Name *</label>
                 <div>
                     <section className='name-input'>
-                        <input />
+                        <input value={firstName} onChange={e => setFirstName(e.target.value)}/>
                         <span className='name-span'>First Name</span>
                     </section>
                     <section className='name-input'>
-                        <input />
+                        <input value={lastName} onChange={e => setLastName(e.target.value)}/>
                         <span className='name-span'>Last Name</span>
                     </section>
                 </div>
                 <label>Email *</label>
-                <input />
+                <input value={email} onChange={e => setEmail(e.target.value)}/>
                 <label>Subject *</label>
-                <input />
+                <input value={subject} onChange={e => setSubject(e.target.value)}/>
                 <label>Message *</label>
-                <textarea />
+                <textarea value={message} onChange={e => setMessage(e.target.value)}/>
                 <button>SUBMIT</button>
             </form>
         </main>
