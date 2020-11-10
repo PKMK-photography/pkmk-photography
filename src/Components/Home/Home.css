@@ -28,11 +28,13 @@
 .book-with-us {
     color: black;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .intro-section button, .portfolio-quote button, .schedule-appointment-section button {
     height: 50px;
     width: 110px;
+    margin-top: 20px;
     background: transparent;
     font-size: 12px;
     color: #FF6400;
@@ -88,8 +90,8 @@
     border-bottom: 1px solid #FF6400;
 }
 
-.about-us-section h1 {
-    margin: 0;
+.about-us-section h5 {
+    margin: 20px 0;
 }
 
 .ending-image {

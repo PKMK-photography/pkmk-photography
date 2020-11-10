@@ -8,9 +8,13 @@ h1 {
   font-weight: bold; 
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.1em;
+  margin: 25px 0;
 }
 
+
+
 p {
+  margin: 20px 0;
   color: #646464;
   font-size: 15px;
   font-family: 'Noto Serif', serif;
