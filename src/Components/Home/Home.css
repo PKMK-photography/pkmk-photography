@@ -15,7 +15,7 @@
     background-position: right;
 }
 
-.about-us-section {
+.intro-section, .about-us-section {
     box-sizing: border-box;
     padding: 70px 20px;
 }
@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-.about-us-section button, .portfolio-quote button {
+.intro-section button, .portfolio-quote button {
     height: 50px;
     width: 110px;
     background: #fafafa;
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.about-us-section button:hover, .portfolio-quote button:hover {
+.intro-section button:hover, .portfolio-quote button:hover {
     background: #FF6400;
     color: white;
 }
@@ -79,4 +79,21 @@
     box-sizing: border-box;
     padding: 20px 0 50px 0;
     border-bottom: 1px solid #FF6400;
+}
+
+.box-underline {
+    margin-top: 40px;
+    border-bottom: 1px solid #FF6400;
+}
+
+.about-us-section h1 {
+    margin: 0;
+}
+
+.ending-image {
+    height: 200px;
+    width: calc(100% - 40px);
+    margin: 50px auto;
+    background-image: url('../../assets/images/pkmk-filler-7.jpg');
+    background-size: cover;
 }
