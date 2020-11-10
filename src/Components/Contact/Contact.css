@@ -1,0 +1,75 @@
+.contact-us {
+    box-sizing: border-box;
+    padding: 60px 20px;
+}
+
+.contact-us h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: lightgray;
+}
+
+.contact-us-info {
+    box-sizing: border-box;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid #FF6400;
+}
+
+.contact-us-image {
+    height: 225px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: url('../../assets/images/pkmk-filler-8.jpg');
+    background-size: cover;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-us-form input {
+    height: 40px;
+    border: 1px solid #646464;
+    border-radius: 3px;
+}
+
+.contact-us-form textarea {
+    height: 75px;
+}
+
+.contact-us-form div {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input {
+    width: 47%;
+    position: relative;
+}
+
+.name-span {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #646464;
+}
+
+.contact-us-form button {
+    height: 50px;
+    width: 110px;
+    margin-top: 20px;
+    background: transparent;
+    font-size: 12px;
+    color: #FF6400;
+    border: 2px solid #FF6400;
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+}
