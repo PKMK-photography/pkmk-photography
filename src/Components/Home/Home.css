@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-.about-us-section button {
+.about-us-section button, .portfolio-quote button {
     height: 50px;
     width: 110px;
     background: #fafafa;
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.about-us-section button:hover {
+.about-us-section button:hover, .portfolio-quote button:hover {
     background: #FF6400;
     color: white;
 }
@@ -73,4 +73,10 @@
     height: 40vw;
     width: 40vw;
     margin: 10px 0;
+}
+
+.portfolio-quote {
+    box-sizing: border-box;
+    padding: 20px 0 50px 0;
+    border-bottom: 1px solid #FF6400;
 }

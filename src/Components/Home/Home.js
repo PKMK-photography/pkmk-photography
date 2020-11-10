@@ -44,6 +44,11 @@ const Home = props => (
                 <img src={filler5} alt='portfolio image'/>
                 <img src={filler6} alt='portfolio image'/>
             </section>
+            <section className='portfolio-quote'>
+                <p>"There is one thing the photograph must contain, the humanity of the moment."</p>
+                <p className='author'>-Robert Frank</p>
+                <button className='portfolio-button'>PORTFOLIO</button>
+            </section>
         </section>
     </main>
 )
