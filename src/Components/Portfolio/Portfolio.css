@@ -15,3 +15,7 @@
 .portfolio img {
     height: 150px;
 }
+
+.slick-slider {
+    z-index: 1;
+}

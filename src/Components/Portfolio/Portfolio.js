@@ -28,7 +28,7 @@ const Portfolio = props => {
             <h1 className='portfolio-heading'>Portfolio</h1>
             <section>
                 <h1>Weddings</h1>
-                <Slider {...settings}>
+                <Slider {...settings} className='slider'>
                     <img src={filler1} alt='filler image 1'/>
                     <img src={filler2} alt='filler image 2'/>
                     <img src={filler3} alt='filler image 3'/>
