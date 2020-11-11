@@ -1,8 +1,11 @@
 .main-header {
     height: 57px;
+    width: 100%;
     box-sizing: border-box;
     padding: 8px;
     background: #fafafa;
+    position: absolute;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +30,10 @@
     background: #262626;
 }
 
+.desktop-menu {
+    display: none;
+}
+
 .main-links {
     text-decoration: none;
     color: white;
@@ -35,7 +42,7 @@
 }
 
 .close-icon {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
 }
@@ -48,6 +55,7 @@
 }
 
 .closed {
+    display: none;
     animation-name: menu-closed;
     animation-duration: 250ms;
     animation-iteration-count: 1;
@@ -61,12 +69,12 @@
     animation-timing-function: linear;
 }
 
-.links-closed {
+/* .links-closed {
     animation-name: slide-closed;
     animation-duration: 250ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-}
+} */
 
 @keyframes menu-open {
     from {
@@ -77,11 +85,65 @@
     }
 }
 
+/* @keyframes menu-closed {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} */
+
 @keyframes slide-open {
     from {
         transform: translateX(-100%);
     }
     to {
         transform: translateX(0);
+    }
+}
+
+/* @keyframes slide-closed {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} */
+
+@media(min-width: 640px){
+    .main-header {
+        height: 65px;
+        background: transparent;
+    }
+
+    .main-header h1 {
+        font-size: 22px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop-menu {
+        width: 360px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .desktop-menu button {
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #262626;
+        transition: 500ms;
+        cursor: pointer;
+    }
+
+    .desktop-menu button:hover {
+        opacity: .7;
     }
 }
