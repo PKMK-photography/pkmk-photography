@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 import menuIcon from '../../assets/icons/menu.svg';
 import closeIcon from '../../assets/icons/x.svg';
 import './Header.css';
@@ -20,20 +20,20 @@ const Header = props => {
             </nav>
             <nav className='desktop-menu'>
                 <Link to='/'>
-                    <button>HOME</button>
+                    <button className={props.location.pathname !== '/' ? 'dark-theme' : 'light-theme'}>HOME</button>
                 </Link>
                 <Link to='/services'>
-                    <button>SESSIONS</button>
+                    <button className={props.location.pathname !== '/' ? 'dark-theme' : 'light-theme'}>SESSIONS</button>
                 </Link>
                 <Link to='/project-gallery'>
-                    <button>PORTFOLIO</button>
+                    <button className={props.location.pathname !== '/' ? 'dark-theme' : 'light-theme'}>PORTFOLIO</button>
                 </Link>
                 <Link to='/contact'>
-                    <button>CONTACT</button>
+                    <button className={props.location.pathname !== '/' ? 'dark-theme' : 'light-theme'}>CONTACT</button>
                 </Link>
             </nav>
         </header>
     )
 }
 
-export default Header;
+export default withRouter(Header);

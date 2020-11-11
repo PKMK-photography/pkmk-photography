@@ -138,13 +138,23 @@
         border: none;
         border-radius: 3px;
         font-weight: bold;
-        color: #262626;
-        transition: 500ms;
+        /* color: #262626; */
+        transition: 300ms;
         cursor: pointer;
     }
 
-    .desktop-menu button:hover {
+    .light-theme:hover {
         opacity: .7;
+    }
+
+    .dark-theme {
+        background: #646464;
+        color: #fafafa;
+        opacity: .6
+    }
+
+    .dark-theme:hover {
+        opacity: 1;
     }
 }
 
