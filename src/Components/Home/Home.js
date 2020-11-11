@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {Link} from 'react-router-dom';
 import filler3 from '../../assets/images/pkmk-filler-3.jpg';
 import filler4 from '../../assets/images/pkmk-filler-4.jpg';
 import filler5 from '../../assets/images/pkmk-filler-5.jpg';
@@ -59,7 +60,9 @@ const Home = props => {
                             <p>"There is one thing the photograph must contain, the humanity of the moment."</p>
                             <p className='author'>-Robert Frank</p>
                             <h6>SEE MORE OF OUR WORK</h6>
-                            <button className='portfolio-button'>PORTFOLIO</button>
+                            <Link to='/project-gallery'>
+                                <button className='portfolio-button'>PORTFOLIO</button>
+                            </Link>
                         </section>
                         <section className='about-us-section'>
                             <h1>About Us</h1>

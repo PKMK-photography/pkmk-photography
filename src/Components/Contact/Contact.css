@@ -31,13 +31,20 @@
 }
 
 .contact-us-form input {
-    height: 40px;
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 10px;
     border: 1px solid #646464;
     border-radius: 3px;
+    font-size: 15px;
 }
 
 .contact-us-form textarea {
     height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
 .contact-us-form div {
@@ -53,7 +60,11 @@
 }
 
 .name-input input {
+    height: 44px;
     width: 100%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .name-span {

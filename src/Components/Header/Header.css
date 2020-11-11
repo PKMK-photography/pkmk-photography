@@ -140,9 +140,12 @@
         font-weight: bold;
         font-family: 'Oswald', sans-serif;
         letter-spacing: 2px;
-        color: #262626;
         transition: 300ms;
         cursor: pointer;
+    }
+
+    .light-theme {
+        color: #262626;
     }
 
     .light-theme:hover {
