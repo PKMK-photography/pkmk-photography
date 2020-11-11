@@ -52,4 +52,33 @@
     .session-heading {
         font-size: 75px;
     }
+
+    .session-info h1 {
+        font-size: 28px;
+    }
+}
+
+@media(min-width: 761px){
+    .sessions {
+        padding: 100px 105px;
+    }
+}
+
+@media(min-width: 901px){
+    .sessions {
+        padding: 200px;
+    }
+}
+
+@media(min-width: 1101px){
+    .sessions {
+        padding: 200px 250px 100px 250px;
+    }
+}
+
+@media(min-width: 1250px){
+    .sessions {
+        width: 1250px;
+        margin: 0 auto;
+    }
 }
