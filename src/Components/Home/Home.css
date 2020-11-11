@@ -144,6 +144,8 @@
 @media(min-width: 1250px){
     .intro-section {
         width: 1250px;
+        padding: 70px 20px;
         margin: 0 auto;
+        justify-content: space-between;
     }
 }
