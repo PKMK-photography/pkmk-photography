@@ -37,7 +37,7 @@
 .main-links {
     text-decoration: none;
     color: white;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -114,7 +114,7 @@
 
 @media(min-width: 641px){
     .main-header {
-        height: 65px;
+        height: 75px;
         background: transparent;
     }
 
@@ -134,11 +134,13 @@
 
     .desktop-menu button {
         height: 35px;
-        padding: 10px;
+        padding: 0 12px;
         border: none;
         border-radius: 3px;
         font-weight: bold;
-        /* color: #262626; */
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        color: #262626;
         transition: 300ms;
         cursor: pointer;
     }
@@ -168,12 +170,12 @@
     }
 }
 
-@media(min-width: 1250px){
+@media(min-width: 1350px){
     .main-header {
-        max-width: 1250px;
-        padding-top: 45px;
+        width: 1350px;
+        padding-top: 55px;
         left: 50%;
-        margin-left: -625px;
+        margin-left: -675px;
     }
 
     .main-header h1 {
@@ -181,7 +183,7 @@
     }
 
     .desktop-menu {
-        width: 475px;
+        width: 430px;
     }
 
     .desktop-menu button {
