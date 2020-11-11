@@ -7,12 +7,19 @@ import './Header.css';
 const Header = props => {
     let [mainMenu, setMainMenu] = useState('closed');
 
+    const closeMenu = () => {
+        setMainMenu('close-menu');
+        setTimeout(() => {
+            setMainMenu('closed');
+        }, 225);
+    }
+
     return (
         <header className='main-header'>
             <h1>P K M K // photography</h1>
-            <img src={menuIcon} alt='Open menu' className='mobile' onClick={() => setMainMenu('open')}/>
+            <img src={menuIcon} alt='Open menu' className='mobile' onClick={() => setMainMenu('open-menu')}/>
             <nav className={`main-menu ${mainMenu}`}>
-                <img src={closeIcon} alt='Close menu' className='close-icon' onClick={() => setMainMenu('closed')}/>
+                <img src={closeIcon} alt='Close menu' className='close-icon' onClick={closeMenu}/>
                 <Link to='/' className={`main-links links-${mainMenu}`} onClick={() => setMainMenu('closed')}>HOME</Link>
                 <Link to='/services' className={`main-links links-${mainMenu}`} onClick={() => setMainMenu('closed')}>SESSIONS</Link>
                 <Link to='/project-gallery' className={`main-links links-${mainMenu}`} onClick={() => setMainMenu('closed')}>PORTFOLIO</Link>
