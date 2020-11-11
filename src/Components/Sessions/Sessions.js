@@ -4,6 +4,7 @@ import './Sessions.css';
 const Sessions = props => {
     useEffect(() => {
         document.title = 'Sessions - P K M K // photography'
+        window.scrollTo(0,0)
     }, [])
 
     return (

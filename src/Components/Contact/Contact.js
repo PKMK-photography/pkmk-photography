@@ -10,6 +10,7 @@ const Contact = props => {
 
     useEffect(() => {
         document.title = 'Contact - P K M K // photography'
+        window.scrollTo(0,0)
     }, [])
 
     return (

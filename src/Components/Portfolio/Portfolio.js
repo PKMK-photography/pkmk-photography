@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Portfolio = props => {
     useEffect(() => {
         document.title = 'Portfolio - P K M K // photography'
+        window.scrollTo(0,0)
     }, [])
 
     const settings = {

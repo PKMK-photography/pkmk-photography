@@ -22,7 +22,9 @@ const Home = props => {
                 <section className='intro-section-flex-two'>
                     <h5 className='book-with-us'>BOOK WITH US!</h5>
                     <p>Take a look at the types of sessions we offer and find the date that works for you.</p>
-                    <button>CHEESE!</button>
+                    <Link to='/services'>
+                        <button>CHEESE!</button>
+                    </Link>
                 </section>
             </section>
             <div className='our-work-image'/>
