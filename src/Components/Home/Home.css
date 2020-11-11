@@ -16,7 +16,7 @@
     background-position: center;
 }
 
-.intro-section, .about-us-section {
+.intro-section {
     box-sizing: border-box;
     padding: 70px 20px;
 }
@@ -74,8 +74,8 @@
 }
 
 .our-work-flex img {
-    height: 40vw;
-    width: 40vw;
+    height: 42vw;
+    width: 42vw;
     margin: 10px 0;
 }
 
@@ -83,6 +83,10 @@
     box-sizing: border-box;
     padding: 20px 0 50px 0;
     border-bottom: 1px solid #FF6400;
+}
+
+.author {
+    margin-bottom: 50px;
 }
 
 .box-underline {
@@ -95,22 +99,43 @@
 }
 
 .ending-image {
-    height: 200px;
+    height: 60vw;
     width: calc(100% - 40px);
     margin: 50px auto;
     background-image: url('../../assets/images/pkmk-filler-7.jpg');
     background-size: cover;
 }
 
+@media(min-width: 451px){
+    .our-work-flex img {
+        height: 44vw;
+        width: 44vw;
+    }
+}
+
 @media(min-width: 641px){
-    .intro-section {
+    .intro-section, .our-work-section {
         padding: 70px 50px;
+    }
+
+    .our-work-flex img {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .ending-image {
+        width: calc(100vw - 100px);
     }
 }
 
 @media(min-width: 761px){
-    .intro-section {
+    .intro-section, .our-work-section {
         padding: 70px;
+    }
+
+    .ending-image {
+        width: calc(100vw - 140px);
+        margin: 0 auto 50px auto;
     }
 }
 
@@ -133,19 +158,72 @@
     .intro-section-flex-two {
         width: 30%;
     }
+
+    .our-work-desktop-flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-work-flex {
+        width: 65%;
+    }
+
+    .our-work-flex img {
+        height: 17vw;
+        width: 17vw;
+    }
+
+    .about-us-desktop-flex {
+        width: 30%;
+    }
 }
 
 @media(min-width: 1101px){
-    .intro-section {
+    .intro-section, .our-work-section {
         padding: 70px 100px;
+    }
+
+    .our-work-flex {
+        width: 55%;
+    }
+
+    .our-work-flex img {
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .about-us-desktop-flex {
+        width: 40%;
+    }
+
+    .ending-image {
+        width: calc(100vw - 200px);
     }
 }
 
 @media(min-width: 1250px){
     .intro-section {
         width: 1250px;
-        padding: 70px 20px;
         margin: 0 auto;
+        padding: 70px 50px;
         justify-content: space-between;
+    }
+
+    .our-work-section {
+        width: 1250px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 70px 50px;
+    }
+
+    .our-work-flex img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .ending-image {
+        height: 80vh;
+        width: 1150px;
     }
 }

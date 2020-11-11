@@ -25,49 +25,54 @@ const Home = props => {
                 </section>
             </section>
             <div className='our-work-image'/>
-            <section className='our-work-section'>
-                <h1>Get a Feel for Our Work</h1>
-                <section className='our-work-flex'>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
-                    <img src={filler3} alt='portfolio image'/>
-                    <img src={filler4} alt='portfolio image'/>
-                    <img src={filler5} alt='portfolio image'/>
-                    <img src={filler6} alt='portfolio image'/>
+                <section className='our-work-section'>
+                    <h1>Get a Feel for Our Work</h1>
+                    <section className='our-work-desktop-flex'>
+                        <section className='our-work-flex'>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                            <img src={filler3} alt='portfolio image'/>
+                            <img src={filler4} alt='portfolio image'/>
+                            <img src={filler5} alt='portfolio image'/>
+                            <img src={filler6} alt='portfolio image'/>
+                        </section>
+                    <section className='about-us-desktop-flex'>
+                        <section className='portfolio-quote'>
+                            <p>"There is one thing the photograph must contain, the humanity of the moment."</p>
+                            <p className='author'>-Robert Frank</p>
+                            <h6>SEE MORE OF OUR WORK</h6>
+                            <button className='portfolio-button'>PORTFOLIO</button>
+                        </section>
+                        <section className='about-us-section'>
+                            <h1>About Us</h1>
+                            <h5>WE ARE PRESTON AND MCKALIE KAHLE</h5>
+                            <p>We've each had a passion for photography since we were young and being able to work together as a married couple has helped us to hone our skills and develop our craft even more.</p>
+                            <p>"For me, it's all about getting that one special shot - the money shot. The one that makes you stop and let your mind drift back to that moment no matter how long ago it was."</p>
+                            <p>-Preston</p>
+                            <p>"I love capturing raw moments. I feel like photography allows me to see people for who they really are and I love seeing all the elements come together to make a great photo. When people look at my photography I want them to <span>feel</span> something."</p>
+                            <p>-McKalie</p>
+                            <div className='box-underline'/>
+                        </section>
+                    </section>
                 </section>
-                <section className='portfolio-quote'>
-                    <p>"There is one thing the photograph must contain, the humanity of the moment."</p>
-                    <p className='author'>-Robert Frank</p>
-                    <button className='portfolio-button'>PORTFOLIO</button>
-                </section>
-            </section>
-            <section className='about-us-section'>
-                <h1>About Us</h1>
-                <h5>WE ARE PRESTON AND MCKALIE KAHLE</h5>
-                <p>We've each had a passion for photography since we were young and being able to work together as a married couple has helped us to hone our skills and develop our craft even more.</p>
-                <p>"For me, it's all about getting that one special shot - the money shot. The one that makes you stop and let your mind drift back to that moment no matter how long ago it was."</p>
-                <p>-Preston</p>
-                <p>"I love capturing raw moments. I feel like photography allows me to see people for who they really are and I love seeing all the elements come together to make a great photo. When people look at my photography I want them to <span>feel</span> something."</p>
-                <p>-McKalie</p>
-                <div className='box-underline'/>
             </section>
             <div className='ending-image'/>
         </main>
