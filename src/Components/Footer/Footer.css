@@ -23,3 +23,16 @@
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+@media(min-width: 641px){
+    .schedule-appointment-section h1 {
+        font-size: 35px;
+    }
+}
+
+@media(min-width: 1001px){
+    .schedule-appointment-section {
+        height: 50vh;
+        padding-top: 80px;
+    }
+}
