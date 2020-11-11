@@ -127,16 +127,16 @@
     }
 
     .desktop-menu {
-        width: 360px;
+        width: 350px;
         display: flex;
         justify-content: space-between;
     }
 
     .desktop-menu button {
-        height: 40px;
+        height: 35px;
         padding: 10px;
         border: none;
-        border-radius: 5px;
+        border-radius: 3px;
         font-weight: bold;
         color: #262626;
         transition: 500ms;
@@ -145,5 +145,37 @@
 
     .desktop-menu button:hover {
         opacity: .7;
+    }
+}
+
+@media(min-width: 700px){
+    .main-header {
+        padding: 30px 20px 0px 20px;
+    }
+
+    .main-header h1 {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 1250px){
+    .main-header {
+        max-width: 1250px;
+        padding-top: 45px;
+        left: 50%;
+        margin-left: -625px;
+    }
+
+    .main-header h1 {
+        font-size: 32px;
+    }
+
+    .desktop-menu {
+        width: 475px;
+    }
+
+    .desktop-menu button {
+        height: 40px;
+        padding: 10px 20px;
     }
 }
