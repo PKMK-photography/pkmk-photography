@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './Contact.css';
 
 const Contact = props => {
@@ -7,6 +7,10 @@ const Contact = props => {
         [email, setEmail] = useState(''),
         [subject, setSubject] = useState(''),
         [message, setMessage] = useState('');
+
+    useEffect(() => {
+        document.title = 'Contact - P K M K // photography'
+    }, [])
 
     return (
         <main className='contact-us'>
