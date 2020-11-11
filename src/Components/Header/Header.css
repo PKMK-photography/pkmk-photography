@@ -39,3 +39,49 @@
     top: 20px;
     right: 20px;
 }
+
+.open {
+    animation-name: menu-open;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.closed {
+    animation-name: menu-closed;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.links-open {
+    animation-name: slide-open;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.links-closed {
+    animation-name: slide-closed;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes menu-open {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-open {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
