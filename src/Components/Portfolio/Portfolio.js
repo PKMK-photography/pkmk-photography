@@ -26,7 +26,7 @@ const Portfolio = props => {
     return (
         <main className='portfolio'>
             <h1 className='portfolio-heading'>Portfolio</h1>
-            <section>
+            <section className='portfolio-carousel-section'>
                 <h1>Weddings</h1>
                 <Slider {...settings} className='slider'>
                     <img src={filler1} alt='filler image 1'/>
@@ -39,7 +39,7 @@ const Portfolio = props => {
                     <img src={filler8} alt='filler image 8'/>
                 </Slider>
             </section>
-            <section>
+            <section className='portfolio-carousel-section'>
                 <h1>Couples</h1>
                 <Slider {...settings}>
                     <img src={filler1} alt='filler image 1'/>
@@ -52,7 +52,7 @@ const Portfolio = props => {
                     <img src={filler8} alt='filler image 8'/>
                 </Slider>
             </section>
-            <section>
+            <section className='portfolio-carousel-section'>
                 <h1>Newborns</h1>
                 <Slider {...settings}>
                     <img src={filler1} alt='filler image 1'/>
@@ -65,7 +65,7 @@ const Portfolio = props => {
                     <img src={filler8} alt='filler image 8'/>
                 </Slider>
             </section>
-            <section>
+            <section className='portfolio-carousel-section'>
                 <h1>Families</h1>
                 <Slider {...settings}>
                     <img src={filler1} alt='filler image 1'/>
@@ -78,7 +78,7 @@ const Portfolio = props => {
                     <img src={filler8} alt='filler image 8'/>
                 </Slider>
             </section>
-            <section>
+            <section className='portfolio-carousel-section'>
                 <h1>Portraits</h1>
                 <Slider {...settings}>
                     <img src={filler1} alt='filler image 1'/>
