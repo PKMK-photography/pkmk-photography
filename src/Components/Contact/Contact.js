@@ -18,6 +18,9 @@ const Contact = props => {
     const sendMessage = (e) => {
         e.preventDefault();
 
+        console.log(firstName)
+        console.log(lastName)
+
         axios.post('/api/email', {firstName, lastName, email, subject, message})
             .then(() => {
                 setMessageSent(true);
@@ -40,11 +43,11 @@ const Contact = props => {
                         <label>Name *</label>
                         <div>
                             <section className='name-input'>
-                                <input value={firstName} onChange={e => setFirstName(e.target.value)}/>
+                                <input value={firstName} autoComplete='given-name' onChange={e => setFirstName(e.target.value)}/>
                                 <span className='name-span'>First Name</span>
                             </section>
                             <section className='name-input'>
-                                <input value={lastName} onChange={e => setLastName(e.target.value)}/>
+                                <input value={lastName} autoComplete='family-name' onChange={e => setLastName(e.target.value)}/>
                                 <span className='name-span'>Last Name</span>
                             </section>
                         </div>
