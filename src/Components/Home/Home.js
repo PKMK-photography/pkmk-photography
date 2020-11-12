@@ -47,30 +47,30 @@ const Home = props => {
                 <h1>Get a Feel for Our Work</h1>
                 <section className='our-work-desktop-flex'>
                     <section className='our-work-flex'>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
-                        <img src={filler3} alt='portfolio image'/>
-                        <img src={filler4} alt='portfolio image'/>
-                        <img src={filler5} alt='portfolio image'/>
-                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio'/>
+                        <img src={filler4} alt='portfolio'/>
+                        <img src={filler5} alt='portfolio'/>
+                        <img src={filler6} alt='portfolio'/>
                     </section>
                     <section className='about-us-desktop-flex'>
                         <section className='portfolio-quote'>
