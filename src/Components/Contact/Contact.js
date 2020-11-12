@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import axios from 'axios';
 import './Contact.css';
 
 const Contact = props => {
@@ -12,6 +13,16 @@ const Contact = props => {
         document.title = 'Contact - P K M K // photography'
         window.scrollTo(0,0)
     }, [])
+
+    const sendMessage = (e) => {
+        e.preventDefault();
+
+        axios.post('/api/email', {firstName, lastName, email, subject, message})
+            .then(() => {
+                //do something here
+            })
+            .catch(err => console.log(err))
+    }
 
     return (
         <main className='contact-us'>
@@ -38,7 +49,7 @@ const Contact = props => {
                 <input value={subject} onChange={e => setSubject(e.target.value)}/>
                 <label>Message *</label>
                 <textarea value={message} onChange={e => setMessage(e.target.value)}/>
-                <button>SUBMIT</button>
+                <button onClick={sendMessage}>SUBMIT</button>
             </form>
         </main>
     )
