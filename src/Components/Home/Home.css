@@ -8,12 +8,8 @@
 }
 
 .home-image {
-    height: 80vh;
-    width: 100%;
-    background-image: url('../../assets/images/pkmk-filler-1.jpg');
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .intro-section {
@@ -50,12 +46,8 @@
 }
 
 .our-work-image {
-    height: 70vh;
-    box-sizing: border-box;
-    background-image: url('../../assets/images/pkmk-filler-2.jpg');
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-position: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .our-work-section {

@@ -1,5 +1,8 @@
 import React, {useEffect} from 'react';
+import {Parallax} from 'react-parallax';
 import {Link} from 'react-router-dom';
+import filler1 from '../../assets/images/pkmk-filler-1.jpg';
+import filler2 from '../../assets/images/pkmk-filler-2.jpg';
 import filler3 from '../../assets/images/pkmk-filler-3.jpg';
 import filler4 from '../../assets/images/pkmk-filler-4.jpg';
 import filler5 from '../../assets/images/pkmk-filler-5.jpg';
@@ -13,7 +16,13 @@ const Home = props => {
 
     return (
         <main className='home'>
-            <div className='home-image'/>
+            <Parallax 
+                bgImage={filler1}
+                strength={250}>
+                <div style={{height: '80vh'}}>
+                    <div className='home-image'/>
+                </div>
+            </Parallax>
             <section className='intro-section'>
                 <section className='intro-section-flex-one'>
                     <h1>Why We Chose Photography</h1>
@@ -27,36 +36,42 @@ const Home = props => {
                     </Link>
                 </section>
             </section>
-            <div className='our-work-image'/>
-                <section className='our-work-section'>
-                    <h1>Get a Feel for Our Work</h1>
-                    <section className='our-work-desktop-flex'>
-                        <section className='our-work-flex'>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                            <img src={filler3} alt='portfolio image'/>
-                            <img src={filler4} alt='portfolio image'/>
-                            <img src={filler5} alt='portfolio image'/>
-                            <img src={filler6} alt='portfolio image'/>
-                        </section>
+            <Parallax
+                bgImage={filler2}
+                strength={250}>
+                <div style={{height: '70vh'}}>
+                    <div className='our-work-image'/>
+                </div>
+            </Parallax>
+            <section className='our-work-section'>
+                <h1>Get a Feel for Our Work</h1>
+                <section className='our-work-desktop-flex'>
+                    <section className='our-work-flex'>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                        <img src={filler3} alt='portfolio image'/>
+                        <img src={filler4} alt='portfolio image'/>
+                        <img src={filler5} alt='portfolio image'/>
+                        <img src={filler6} alt='portfolio image'/>
+                    </section>
                     <section className='about-us-desktop-flex'>
                         <section className='portfolio-quote'>
                             <p>"There is one thing the photograph must contain, the humanity of the moment."</p>
