@@ -8,7 +8,7 @@ const Footer = () => (
         <Link to='/contact'>
             <button>START NOW</button>
         </Link>
-        <a className='social-link' target='_blank' href='https://www.instagram.com/pkmkphotos/'>INSTAGRAM</a>
+        <a className='social-link' target='_blank' rel='noreferrer' href='https://www.instagram.com/pkmkphotos/'>INSTAGRAM</a>
     </footer>
 )
 

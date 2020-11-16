@@ -34,66 +34,66 @@ const Portfolio = props => {
             <section className='portfolio-carousel-section'>
                 <h1>Weddings</h1>
                 <Slider {...settings} className='slider'>
-                    <img src={filler1} alt='filler image 1'/>
-                    <img src={filler2} alt='filler image 2'/>
-                    <img src={filler3} alt='filler image 3'/>
-                    <img src={filler4} alt='filler image 4'/>
-                    <img src={filler5} alt='filler image 5'/>
-                    <img src={filler6} alt='filler image 6'/>
-                    <img src={filler7} alt='filler image 7'/>
-                    <img src={filler8} alt='filler image 8'/>
+                    <img src={filler1} alt='filler 1'/>
+                    <img src={filler2} alt='filler 2'/>
+                    <img src={filler3} alt='filler 3'/>
+                    <img src={filler4} alt='filler 4'/>
+                    <img src={filler5} alt='filler 5'/>
+                    <img src={filler6} alt='filler 6'/>
+                    <img src={filler7} alt='filler 7'/>
+                    <img src={filler8} alt='filler 8'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Couples</h1>
                 <Slider {...settings}>
-                    <img src={filler1} alt='filler image 1'/>
-                    <img src={filler2} alt='filler image 2'/>
-                    <img src={filler3} alt='filler image 3'/>
-                    <img src={filler4} alt='filler image 4'/>
-                    <img src={filler5} alt='filler image 5'/>
-                    <img src={filler6} alt='filler image 6'/>
-                    <img src={filler7} alt='filler image 7'/>
-                    <img src={filler8} alt='filler image 8'/>
+                    <img src={filler1} alt='filler 1'/>
+                    <img src={filler2} alt='filler 2'/>
+                    <img src={filler3} alt='filler 3'/>
+                    <img src={filler4} alt='filler 4'/>
+                    <img src={filler5} alt='filler 5'/>
+                    <img src={filler6} alt='filler 6'/>
+                    <img src={filler7} alt='filler 7'/>
+                    <img src={filler8} alt='filler 8'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Newborns</h1>
                 <Slider {...settings}>
-                    <img src={filler1} alt='filler image 1'/>
-                    <img src={filler2} alt='filler image 2'/>
-                    <img src={filler3} alt='filler image 3'/>
-                    <img src={filler4} alt='filler image 4'/>
-                    <img src={filler5} alt='filler image 5'/>
-                    <img src={filler6} alt='filler image 6'/>
-                    <img src={filler7} alt='filler image 7'/>
-                    <img src={filler8} alt='filler image 8'/>
+                    <img src={filler1} alt='filler 1'/>
+                    <img src={filler2} alt='filler 2'/>
+                    <img src={filler3} alt='filler 3'/>
+                    <img src={filler4} alt='filler 4'/>
+                    <img src={filler5} alt='filler 5'/>
+                    <img src={filler6} alt='filler 6'/>
+                    <img src={filler7} alt='filler 7'/>
+                    <img src={filler8} alt='filler 8'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Families</h1>
                 <Slider {...settings}>
-                    <img src={filler1} alt='filler image 1'/>
-                    <img src={filler2} alt='filler image 2'/>
-                    <img src={filler3} alt='filler image 3'/>
-                    <img src={filler4} alt='filler image 4'/>
-                    <img src={filler5} alt='filler image 5'/>
-                    <img src={filler6} alt='filler image 6'/>
-                    <img src={filler7} alt='filler image 7'/>
-                    <img src={filler8} alt='filler image 8'/>
+                    <img src={filler1} alt='filler 1'/>
+                    <img src={filler2} alt='filler 2'/>
+                    <img src={filler3} alt='filler 3'/>
+                    <img src={filler4} alt='filler 4'/>
+                    <img src={filler5} alt='filler 5'/>
+                    <img src={filler6} alt='filler 6'/>
+                    <img src={filler7} alt='filler 7'/>
+                    <img src={filler8} alt='filler 8'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Portraits</h1>
                 <Slider {...settings}>
-                    <img src={filler1} alt='filler image 1'/>
-                    <img src={filler2} alt='filler image 2'/>
-                    <img src={filler3} alt='filler image 3'/>
-                    <img src={filler4} alt='filler image 4'/>
-                    <img src={filler5} alt='filler image 5'/>
-                    <img src={filler6} alt='filler image 6'/>
-                    <img src={filler7} alt='filler image 7'/>
-                    <img src={filler8} alt='filler image 8'/>
+                    <img src={filler1} alt='filler 1'/>
+                    <img src={filler2} alt='filler 2'/>
+                    <img src={filler3} alt='filler 3'/>
+                    <img src={filler4} alt='filler 4'/>
+                    <img src={filler5} alt='filler 5'/>
+                    <img src={filler6} alt='filler 6'/>
+                    <img src={filler7} alt='filler 7'/>
+                    <img src={filler8} alt='filler 8'/>
                 </Slider>
             </section>
         </main>
