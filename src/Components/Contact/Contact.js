@@ -56,7 +56,7 @@ const Contact = props => {
                         <label>Subject *</label>
                         <input value={subject} onChange={e => setSubject(e.target.value)}/>
                         <label>Message *</label>
-                        <textarea value={message} onChange={e => setMessage(e.target.value)}/>
+                        <textarea value={message} autoComplete='off' onChange={e => setMessage(e.target.value)}/>
                         <button onClick={sendMessage}>SUBMIT</button>
                     </form>
                 )
