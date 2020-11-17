@@ -1,12 +1,12 @@
 import React, {useEffect} from 'react';
 import {Parallax} from 'react-parallax';
 import {Link} from 'react-router-dom';
-import filler1 from '../../assets/images/pkmk-filler-1.jpg';
-import filler2 from '../../assets/images/pkmk-filler-2.jpg';
-import filler3 from '../../assets/images/pkmk-filler-3.jpg';
-import filler4 from '../../assets/images/pkmk-filler-4.jpg';
-import filler5 from '../../assets/images/pkmk-filler-5.jpg';
-import filler6 from '../../assets/images/pkmk-filler-6.jpg';
+import filler1 from '../../assets/images/pkmk-filler-1.webp';
+import filler2 from '../../assets/images/pkmk-filler-2.webp';
+import filler3 from '../../assets/images/pkmk-filler-3.webp';
+import filler4 from '../../assets/images/pkmk-filler-4.webp';
+import filler5 from '../../assets/images/pkmk-filler-5.webp';
+import filler6 from '../../assets/images/pkmk-filler-6.webp';
 import './Home.css';
 
 const Home = props => {
