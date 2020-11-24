@@ -17,6 +17,11 @@ h2, h3 {
   color: #262626;
 }
 
+h5 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #646464;
+}
+
 p {
   margin: 20px 0;
   color: #646464;
