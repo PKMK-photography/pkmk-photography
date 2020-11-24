@@ -32,7 +32,7 @@ const Home = props => {
                     <h5 className='book-with-us'>BOOK WITH US!</h5>
                     <p>Take a look at the types of sessions we offer and find the date that works for you.</p>
                     <Link to='/services'>
-                        <button>CHEESE!</button>
+                        <button className='main-button'>CHEESE!</button>
                     </Link>
                 </section>
             </section>
@@ -78,7 +78,7 @@ const Home = props => {
                             <p className='author'>-Robert Frank</p>
                             <h6>SEE MORE OF OUR WORK</h6>
                             <Link to='/project-gallery'>
-                                <button className='portfolio-button'>PORTFOLIO</button>
+                                <button className='main-button'>PORTFOLIO</button>
                             </Link>
                         </section>
                         <section className='about-us-section'>

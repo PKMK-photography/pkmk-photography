@@ -18,9 +18,6 @@ const Contact = props => {
     const sendMessage = (e) => {
         e.preventDefault();
 
-        console.log(firstName)
-        console.log(lastName)
-
         axios.post('/api/email', {firstName, lastName, email, subject, message})
             .then(() => {
                 setMessageSent(true);
@@ -57,7 +54,7 @@ const Contact = props => {
                         <input value={subject} required onChange={e => setSubject(e.target.value)}/>
                         <label>Message *</label>
                         <textarea value={message} required autoComplete='off' onChange={e => setMessage(e.target.value)}/>
-                        <button onClick={sendMessage}>SUBMIT</button>
+                        <button className='main-button' onClick={sendMessage}>SUBMIT</button>
                     </form>
                 )
                 : (

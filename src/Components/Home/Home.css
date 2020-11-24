@@ -27,24 +27,6 @@
     margin-bottom: 15px;
 }
 
-.intro-section button, .portfolio-quote button, .schedule-appointment-section button {
-    height: 50px;
-    width: 110px;
-    margin-top: 20px;
-    background: transparent;
-    font-size: 12px;
-    color: #FF6400;
-    border: 2px solid #FF6400;
-    font-weight: bold;
-    transition: 200ms;
-    cursor: pointer;
-}
-
-.intro-section button:hover, .portfolio-quote button:hover, .schedule-appointment-section button:hover {
-    background: #FF6400;
-    color: white;
-}
-
 .our-work-image {
     position: absolute;
     transform: translate(-50%, -50%);
