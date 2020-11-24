@@ -29,6 +29,12 @@
     font-weight: bold;
     transition: 200ms;
     cursor: pointer;
+    transition: 200ms;
+}
+
+.contact-us button:hover {
+    background: #FF6400;
+    color: white;
 }
 
 .contact-us-info {
