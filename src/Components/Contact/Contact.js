@@ -34,7 +34,7 @@ const Contact = props => {
         <main className='contact-us'>
             <h1>Contact Us!</h1>
             <section className='contact-us-info'>
-                <p>Looking to book with us? Or have any questions? Fill out the form and we'll get right back to you!</p>
+                <p>Looking to book with us? Or have any questions? Fill out the form below and we'll get right back to you!</p>
                 <div className='contact-us-image'/>
             </section>
             {!messageSent
