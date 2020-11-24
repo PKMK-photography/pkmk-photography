@@ -43,20 +43,20 @@ const Contact = props => {
                         <label>Name *</label>
                         <div>
                             <section className='name-input'>
-                                <input value={firstName} autoComplete='given-name' onChange={e => setFirstName(e.target.value)}/>
+                                <input value={firstName} autoComplete='given-name' required onChange={e => setFirstName(e.target.value)}/>
                                 <span className='name-span'>First Name</span>
                             </section>
                             <section className='name-input'>
-                                <input value={lastName} autoComplete='family-name' onChange={e => setLastName(e.target.value)}/>
+                                <input value={lastName} autoComplete='family-name' required onChange={e => setLastName(e.target.value)}/>
                                 <span className='name-span'>Last Name</span>
                             </section>
                         </div>
                         <label>Email *</label>
-                        <input value={email} onChange={e => setEmail(e.target.value)}/>
+                        <input value={email} required onChange={e => setEmail(e.target.value)}/>
                         <label>Subject *</label>
-                        <input value={subject} onChange={e => setSubject(e.target.value)}/>
+                        <input value={subject} required onChange={e => setSubject(e.target.value)}/>
                         <label>Message *</label>
-                        <textarea value={message} autoComplete='off' onChange={e => setMessage(e.target.value)}/>
+                        <textarea value={message} required autoComplete='off' onChange={e => setMessage(e.target.value)}/>
                         <button onClick={sendMessage}>SUBMIT</button>
                     </form>
                 )

@@ -42,3 +42,7 @@ label {
 button:focus {
   outline: none;
 }
+
+input, textarea {
+  outline: none;
+}
