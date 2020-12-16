@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import {Parallax} from 'react-parallax';
 import {Link} from 'react-router-dom';
-import filler1 from '../../assets/images/pkmk-filler-1.webp';
-import filler2 from '../../assets/images/pkmk-filler-2.webp';
+import homeImage from '../../assets/images/home-image.jpg';
+import image2 from '../../assets/images/image-2.jpg';
 import filler3 from '../../assets/images/pkmk-filler-3.webp';
 import filler4 from '../../assets/images/pkmk-filler-4.webp';
 import filler5 from '../../assets/images/pkmk-filler-5.webp';
@@ -17,7 +17,7 @@ const Home = props => {
     return (
         <main className='home'>
             <Parallax 
-                bgImage={filler1}
+                bgImage={homeImage}
                 strength={250}>
                 <div style={{height: '80vh'}}>
                     <div className='home-image'/>
@@ -37,7 +37,7 @@ const Home = props => {
                 </section>
             </section>
             <Parallax
-                bgImage={filler2}
+                bgImage={image2}
                 strength={250}>
                 <div style={{height: '70vh'}}>
                     <div className='our-work-image'/>
