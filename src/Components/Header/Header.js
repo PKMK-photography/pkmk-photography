@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import menuIcon from '../../assets/icons/menu.svg';
 import closeIcon from '../../assets/icons/x.svg';
@@ -6,6 +6,14 @@ import './Header.css';
 
 const Header = props => {
     let [mainMenu, setMainMenu] = useState('closed');
+
+    useEffect(() => {
+        if(mainMenu === 'open-menu'){
+            document.body.style.overflowY = 'hidden';
+        } else {
+            document.body.style.overflowY = 'scroll';
+        }
+    }, [mainMenu])
 
     const closeMenu = () => {
         setMainMenu('close-menu');
