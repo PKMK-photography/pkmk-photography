@@ -1,6 +1,12 @@
 import React, {useEffect} from 'react';
 import Slider from 'react-slick';
 import homeImage from '../../assets/images/home-image.jpg';
+import couples1 from '../../assets/images/portfolio/couples/DSCF6479.jpg';
+import couples2 from '../../assets/images/portfolio/couples/DSCF8693.jpg';
+import couples3 from '../../assets/images/portfolio/couples/DSCF9227.jpg';
+import couples4 from '../../assets/images/portfolio/couples/DSCF9407.jpg';
+import couples5 from '../../assets/images/portfolio/couples/IMG_4958.jpg';
+import couples6 from '../../assets/images/portfolio/couples/IMG_4996.jpg';
 import filler2 from '../../assets/images/pkmk-filler-2.webp'
 import filler3 from '../../assets/images/pkmk-filler-3.webp'
 import filler4 from '../../assets/images/pkmk-filler-4.webp'
@@ -19,11 +25,13 @@ const Portfolio = props => {
     const settings = {
         infinite: true,
         slidesToShow: 1,
+        lazyLoad: true,
         dots: false,
         arrows: false,
         slidesToScroll: 1,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        variableWidth: true
     }
 
     return (
@@ -32,12 +40,12 @@ const Portfolio = props => {
             <section className='portfolio-carousel-section'>
                 <h1>Weddings</h1>
                 <Slider {...settings} className='slider'>
-                    <img src={homeImage} alt='filler 1'/>
-                    <img src={filler2} alt='filler 2'/>
-                    <img src={filler3} alt='filler 3'/>
-                    <img src={filler4} alt='filler 4'/>
-                    <img src={filler5} alt='filler 5'/>
-                    <img src={filler6} alt='filler 6'/>
+                    <img src={couples1} alt='filler 1'/>
+                    <img src={couples2} alt='filler 2'/>
+                    <img src={couples3} alt='filler 3'/>
+                    <img src={couples4} alt='filler 4'/>
+                    <img src={couples5} alt='filler 5'/>
+                    <img src={couples6} alt='filler 6'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
