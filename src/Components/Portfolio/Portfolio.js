@@ -7,6 +7,12 @@ import couples3 from '../../assets/images/portfolio/couples/DSCF9227.jpg';
 import couples4 from '../../assets/images/portfolio/couples/DSCF9407.jpg';
 import couples5 from '../../assets/images/portfolio/couples/IMG_4958.jpg';
 import couples6 from '../../assets/images/portfolio/couples/IMG_4996.jpg';
+import family1 from '../../assets/images/portfolio/family/DSCF2304.jpg';
+import family2 from '../../assets/images/portfolio/family/IMG_3241.jpg';
+import family3 from '../../assets/images/portfolio/family/IMG_4940.jpg';
+import family4 from '../../assets/images/portfolio/family/JH3A0278.jpg';
+import family5 from '../../assets/images/portfolio/family/JH3A0298.jpg';
+import family6 from '../../assets/images/portfolio/family/JH3A0302.jpg';
 import filler2 from '../../assets/images/pkmk-filler-2.webp'
 import filler3 from '../../assets/images/pkmk-filler-3.webp'
 import filler4 from '../../assets/images/pkmk-filler-4.webp'
@@ -25,7 +31,7 @@ const Portfolio = props => {
     const settings = {
         infinite: true,
         slidesToShow: 1,
-        lazyLoad: true,
+        // lazyLoad: true,
         dots: false,
         arrows: false,
         slidesToScroll: 1,
@@ -73,12 +79,12 @@ const Portfolio = props => {
             <section className='portfolio-carousel-section'>
                 <h1>Families</h1>
                 <Slider {...settings}>
-                    <img src={homeImage} alt='filler 1' loading='lazy'/>
-                    <img src={filler2} alt='filler 2' loading='lazy'/>
-                    <img src={filler3} alt='filler 3' loading='lazy'/>
-                    <img src={filler4} alt='filler 4' loading='lazy'/>
-                    <img src={filler5} alt='filler 5' loading='lazy'/>
-                    <img src={filler6} alt='filler 6' loading='lazy'/>
+                    <img src={family1} alt='filler 1' loading='lazy'/>
+                    <img src={family2} alt='filler 2' loading='lazy'/>
+                    <img src={family3} alt='filler 3' loading='lazy'/>
+                    <img src={family4} alt='filler 4' loading='lazy'/>
+                    <img src={family5} alt='filler 5' loading='lazy'/>
+                    <img src={family6} alt='filler 6' loading='lazy'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
