@@ -43,45 +43,45 @@ const Portfolio = props => {
             <section className='portfolio-carousel-section'>
                 <h1>Couples</h1>
                 <Slider {...settings}>
-                    <img src={homeImage} alt='filler 1'/>
-                    <img src={filler2} alt='filler 2'/>
-                    <img src={filler3} alt='filler 3'/>
-                    <img src={filler4} alt='filler 4'/>
-                    <img src={filler5} alt='filler 5'/>
-                    <img src={filler6} alt='filler 6'/>
+                    <img src={homeImage} alt='filler 1' loading='lazy'/>
+                    <img src={filler2} alt='filler 2' loading='lazy'/>
+                    <img src={filler3} alt='filler 3' loading='lazy'/>
+                    <img src={filler4} alt='filler 4' loading='lazy'/>
+                    <img src={filler5} alt='filler 5' loading='lazy'/>
+                    <img src={filler6} alt='filler 6' loading='lazy'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Newborns</h1>
                 <Slider {...settings}>
-                    <img src={homeImage} alt='filler 1'/>
-                    <img src={filler2} alt='filler 2'/>
-                    <img src={filler3} alt='filler 3'/>
-                    <img src={filler4} alt='filler 4'/>
-                    <img src={filler5} alt='filler 5'/>
-                    <img src={filler6} alt='filler 6'/>
+                    <img src={homeImage} alt='filler 1' loading='lazy'/>
+                    <img src={filler2} alt='filler 2' loading='lazy'/>
+                    <img src={filler3} alt='filler 3' loading='lazy'/>
+                    <img src={filler4} alt='filler 4' loading='lazy'/>
+                    <img src={filler5} alt='filler 5' loading='lazy'/>
+                    <img src={filler6} alt='filler 6' loading='lazy'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Families</h1>
                 <Slider {...settings}>
-                    <img src={homeImage} alt='filler 1'/>
-                    <img src={filler2} alt='filler 2'/>
-                    <img src={filler3} alt='filler 3'/>
-                    <img src={filler4} alt='filler 4'/>
-                    <img src={filler5} alt='filler 5'/>
-                    <img src={filler6} alt='filler 6'/>
+                    <img src={homeImage} alt='filler 1' loading='lazy'/>
+                    <img src={filler2} alt='filler 2' loading='lazy'/>
+                    <img src={filler3} alt='filler 3' loading='lazy'/>
+                    <img src={filler4} alt='filler 4' loading='lazy'/>
+                    <img src={filler5} alt='filler 5' loading='lazy'/>
+                    <img src={filler6} alt='filler 6' loading='lazy'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Portraits</h1>
                 <Slider {...settings}>
-                    <img src={homeImage} alt='filler 1'/>
-                    <img src={filler2} alt='filler 2'/>
-                    <img src={filler3} alt='filler 3'/>
-                    <img src={filler4} alt='filler 4'/>
-                    <img src={filler5} alt='filler 5'/>
-                    <img src={filler6} alt='filler 6'/>
+                    <img src={homeImage} alt='filler 1' loading='lazy'/>
+                    <img src={filler2} alt='filler 2' loading='lazy'/>
+                    <img src={filler3} alt='filler 3' loading='lazy'/>
+                    <img src={filler4} alt='filler 4' loading='lazy'/>
+                    <img src={filler5} alt='filler 5' loading='lazy'/>
+                    <img src={filler6} alt='filler 6' loading='lazy'/>
                 </Slider>
             </section>
         </main>

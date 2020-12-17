@@ -19,7 +19,7 @@ const Home = props => {
             <Parallax 
                 bgImage={homeImage}
                 strength={250}>
-                <div style={{height: '80vh'}}>
+                <div style={{height: '85vh'}}>
                     <div className='home-image'/>
                 </div>
             </Parallax>
@@ -47,30 +47,30 @@ const Home = props => {
                 <h1>Get a Feel for Our Work</h1>
                 <section className='our-work-desktop-flex'>
                     <section className='our-work-flex'>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
-                        <img src={filler3} alt='portfolio'/>
-                        <img src={filler4} alt='portfolio'/>
-                        <img src={filler5} alt='portfolio'/>
-                        <img src={filler6} alt='portfolio'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
+                        <img src={filler3} alt='portfolio' loading='lazy'/>
+                        <img src={filler4} alt='portfolio' loading='lazy'/>
+                        <img src={filler5} alt='portfolio' loading='lazy'/>
+                        <img src={filler6} alt='portfolio' loading='lazy'/>
                     </section>
                     <section className='about-us-desktop-flex'>
                         <section className='portfolio-quote'>
