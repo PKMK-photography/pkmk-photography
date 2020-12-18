@@ -2,7 +2,7 @@
   "name": "pkmk-photos",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5555",
+  "proxy": "https://frozen-forest-18172.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
