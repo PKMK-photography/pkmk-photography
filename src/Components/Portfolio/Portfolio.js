@@ -43,12 +43,13 @@ const Portfolio = props => {
     const settings = {
         infinite: true,
         slidesToShow: 1,
-        dots: false,
+        dots: true,
         arrows: false,
         slidesToScroll: 1,
         centerMode: true,
         focusOnSelect: true,
         variableWidth: true,
+        adaptiveHeight: true,
         responsive: [
             {
               breakpoint: 1024,
@@ -70,7 +71,8 @@ const Portfolio = props => {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                variableWidth: false
+                variableWidth: false,
+                adaptiveHeight: true
               }
             }
           ]
@@ -81,7 +83,7 @@ const Portfolio = props => {
             <h1 className='portfolio-heading'>Portfolio</h1>
             <section className='portfolio-carousel-section'>
                 <h1>Couples</h1>
-                <Slider {...settings} className='slider'>
+                <Slider {...settings}>
                     <img src={couples1} alt='Couples 1'/>
                     <img src={couples2} alt='Couples 2'/>
                     <img src={couples3} alt='Couples 3'/>

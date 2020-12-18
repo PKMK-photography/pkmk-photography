@@ -19,7 +19,8 @@
 }
 
 .portfolio img {
-    height: 45vw;
+    height: 50vh;
+    object-fit: cover;
 }
 
 .slick-slider {
@@ -47,10 +48,6 @@
     .portfolio {
         padding: 150px 75px 100px 75px;
     }
-
-    .portfolio img {
-        height: 40vw;
-    }
 }
 
 @media(min-width: 1001px){
@@ -58,12 +55,12 @@
         padding: 150px 200px 100px 200px;
     }
 
-    .portfolio img {
-        height: 35vw;
-    }
-
     .portfolio-carousel-section h1 {
         font-size: 30px;
+    }
+
+    .portfolio img {
+        height: 575px;
     }
 }
 
@@ -76,9 +73,5 @@
 
     .portfolio-carousel-section {
         margin-bottom: 50px;
-    }
-
-    .portfolio img {
-        height: 575px;
     }
 }
