@@ -43,7 +43,6 @@ const Portfolio = props => {
     const settings = {
         infinite: true,
         slidesToShow: 1,
-        // lazyLoad: true,
         dots: false,
         arrows: false,
         slidesToScroll: 1,
@@ -58,56 +57,56 @@ const Portfolio = props => {
             <section className='portfolio-carousel-section'>
                 <h1>Couples</h1>
                 <Slider {...settings} className='slider'>
-                    <img src={couples1} alt='filler 1'/>
-                    <img src={couples2} alt='filler 2'/>
-                    <img src={couples3} alt='filler 3'/>
-                    <img src={couples4} alt='filler 4'/>
-                    <img src={couples5} alt='filler 5'/>
-                    <img src={couples6} alt='filler 6'/>
+                    <img src={couples1} alt='Couples 1'/>
+                    <img src={couples2} alt='Couples 2'/>
+                    <img src={couples3} alt='Couples 3'/>
+                    <img src={couples4} alt='Couples 4'/>
+                    <img src={couples5} alt='Couples 5'/>
+                    <img src={couples6} alt='Couples 6'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Weddings</h1>
                 <Slider {...settings}>
-                    <img src={wedding1} alt='filler 1' loading='lazy'/>
-                    <img src={wedding2} alt='filler 2' loading='lazy'/>
-                    <img src={wedding3} alt='filler 3' loading='lazy'/>
-                    <img src={wedding4} alt='filler 4' loading='lazy'/>
-                    <img src={wedding5} alt='filler 5' loading='lazy'/>
-                    <img src={wedding6} alt='filler 6' loading='lazy'/>
+                    <img src={wedding1} alt='Wedding 1'/>
+                    <img src={wedding2} alt='Wedding 2'/>
+                    <img src={wedding3} alt='Wedding 3'/>
+                    <img src={wedding4} alt='Wedding 4'/>
+                    <img src={wedding5} alt='Wedding 5'/>
+                    <img src={wedding6} alt='Wedding 6'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Newborns</h1>
                 <Slider {...settings}>
-                    <img src={newborn1} alt='filler 1' loading='lazy'/>
-                    <img src={newborn2} alt='filler 2' loading='lazy'/>
-                    <img src={newborn3} alt='filler 3' loading='lazy'/>
-                    <img src={newborn4} alt='filler 4' loading='lazy'/>
-                    <img src={newborn5} alt='filler 5' loading='lazy'/>
-                    <img src={newborn6} alt='filler 6' loading='lazy'/>
+                    <img src={newborn1} alt='Newborn 1'/>
+                    <img src={newborn2} alt='Newborn 2'/>
+                    <img src={newborn3} alt='Newborn 3'/>
+                    <img src={newborn4} alt='Newborn 4'/>
+                    <img src={newborn5} alt='Newborn 5'/>
+                    <img src={newborn6} alt='Newborn 6'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Families</h1>
                 <Slider {...settings}>
-                    <img src={family1} alt='filler 1' loading='lazy'/>
-                    <img src={family2} alt='filler 2' loading='lazy'/>
-                    <img src={family3} alt='filler 3' loading='lazy'/>
-                    <img src={family4} alt='filler 4' loading='lazy'/>
-                    <img src={family5} alt='filler 5' loading='lazy'/>
-                    <img src={family6} alt='filler 6' loading='lazy'/>
+                    <img src={family1} alt='Family 1'/>
+                    <img src={family2} alt='Family 2'/>
+                    <img src={family3} alt='Family 3'/>
+                    <img src={family4} alt='Family 4'/>
+                    <img src={family5} alt='Family 5'/>
+                    <img src={family6} alt='Family 6'/>
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>
                 <h1>Portraits</h1>
                 <Slider {...settings}>
-                    <img src={portrait1} alt='filler 1' loading='lazy'/>
-                    <img src={portrait2} alt='filler 2' loading='lazy'/>
-                    <img src={portrait3} alt='filler 3' loading='lazy'/>
-                    <img src={portrait4} alt='filler 4' loading='lazy'/>
-                    <img src={portrait5} alt='filler 5' loading='lazy'/>
-                    <img src={portrait6} alt='filler 6' loading='lazy'/>
+                    <img src={portrait1} alt='Portrait 1'/>
+                    <img src={portrait2} alt='Portrait 2'/>
+                    <img src={portrait3} alt='Portrait 3'/>
+                    <img src={portrait4} alt='Portrait 4'/>
+                    <img src={portrait5} alt='Portrait 5'/>
+                    <img src={portrait6} alt='Portrait 6'/>
                 </Slider>
             </section>
         </main>
