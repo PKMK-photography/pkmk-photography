@@ -53,6 +53,10 @@ input, textarea {
   outline: none;
 }
 
+#loading-container {
+  min-height: 100vh;
+}
+
 .main-button {
   height: 50px;
   width: 110px;
