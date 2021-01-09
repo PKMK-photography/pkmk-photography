@@ -55,9 +55,7 @@ const Portfolio = props => {
                 <h1>Couples</h1>
                 <Slider {...settings}>
                     {couples.map((couple, i) => (
-                        <div key={i}>
-                            <img src={couple} alt={`Couples ${i + 1}`} loading='lazy'/>
-                        </div>
+                        <img key={i} src={couple} alt={`Couples ${i + 1}`} loading='lazy'/>
                     ))}
                 </Slider>
             </section>
@@ -65,9 +63,7 @@ const Portfolio = props => {
                 <h1>Weddings</h1>
                 <Slider {...settings}>
                     {wedding.map((wedding, i) => (
-                        <div key={i}>
-                            <img src={wedding} alt={`Wedding ${i + 1}`} loading='lazy'/>
-                        </div>
+                        <img key={i} src={wedding} alt={`Wedding ${i + 1}`} loading='lazy'/>
                     ))} 
                 </Slider>
             </section>
@@ -75,9 +71,7 @@ const Portfolio = props => {
                 <h1>Families</h1>
                 <Slider {...settings}>
                     {family.map((family, i) => (
-                        <div key={i}>
-                            <img src={family} alt={`Family ${i + 1}`} loading='lazy'/>
-                        </div>
+                        <img key={i} src={family} alt={`Family ${i + 1}`} loading='lazy'/>
                     ))}
                 </Slider>
             </section>
@@ -85,9 +79,7 @@ const Portfolio = props => {
                 <h1>Newborns</h1>
                 <Slider {...settings}>
                     {newborn.map((newborn, i) => (
-                        <div key={i}>
-                            <img src={newborn} alt={`Newborn ${i + 1}`} loading='lazy'/>
-                        </div>
+                        <img key={i} src={newborn} alt={`Newborn ${i + 1}`} loading='lazy'/>
                     ))}
                 </Slider>
             </section>
@@ -95,9 +87,7 @@ const Portfolio = props => {
                 <h1>Portraits</h1>
                 <Slider {...settings}>
                     {portrait.map((portrait, i) => (
-                        <div key={i}>
-                            <img src={portrait} alt={`Portrait ${i + 1}`} loading='lazy'/>
-                        </div>
+                        <img key={i} src={portrait} alt={`Portrait ${i + 1}`} loading='lazy'/>
                     ))}
                 </Slider>
             </section>
