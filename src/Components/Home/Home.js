@@ -3,35 +3,12 @@ import {Parallax} from 'react-parallax';
 import {Link} from 'react-router-dom';
 import homeImage from '../../assets/images/home-image.jpg';
 import image2 from '../../assets/images/image-2.jpg';
-import image5 from '../../assets/images/image-5.jpg';
-import image6 from '../../assets/images/image-6.jpg';
-import image7 from '../../assets/images/image-7.jpg';
-import image8 from '../../assets/images/image-8.jpg';
-import image9 from '../../assets/images/image-9.jpg';
-import image10 from '../../assets/images/image-10.jpg';
-import image11 from '../../assets/images/image-11.jpg';
-import image12 from '../../assets/images/image-12.jpg';
-import image13 from '../../assets/images/image-13.jpg';
-import image14 from '../../assets/images/image-14.jpg';
-import image15 from '../../assets/images/image-15.jpg';
-import image16 from '../../assets/images/image-16.jpg';
-import image17 from '../../assets/images/image-17.jpg';
-import image18 from '../../assets/images/image-18.jpg';
-import image19 from '../../assets/images/image-19.jpg';
-import image20 from '../../assets/images/image-20.jpg';
-import image21 from '../../assets/images/image-21.jpg';
-import image22 from '../../assets/images/image-22.jpg';
-import image23 from '../../assets/images/image-23.jpg';
-import image24 from '../../assets/images/image-24.jpg';
-import image25 from '../../assets/images/image-25.jpg';
-import image26 from '../../assets/images/image-26.jpg';
-import image27 from '../../assets/images/image-27.jpg';
-import image28 from '../../assets/images/image-28.jpg';
+import {images24} from '../../assets/photos';
 import './Home.css';
 
 const Home = props => {
     useEffect(() => {
-        document.title = 'P K M K // photography'
+        document.title = 'P K M K // photography - Utah Based Photographer'
     }, [])
 
     return (
@@ -67,30 +44,30 @@ const Home = props => {
                 <h1>Get a Feel for Our Work</h1>
                 <section className='our-work-desktop-flex'>
                     <section className='our-work-flex'>
-                        <img src={image5} alt='portfolio' loading='lazy'/>
-                        <img src={image6} alt='portfolio' loading='lazy'/>
-                        <img src={image7} alt='portfolio' loading='lazy'/>
-                        <img src={image8} alt='portfolio' loading='lazy'/>
-                        <img src={image9} alt='portfolio' loading='lazy'/>
-                        <img src={image10} alt='portfolio' loading='lazy'/>
-                        <img src={image11} alt='portfolio' loading='lazy'/>
-                        <img src={image12} alt='portfolio' loading='lazy'/>
-                        <img src={image13} alt='portfolio' loading='lazy'/>
-                        <img src={image14} alt='portfolio' loading='lazy'/>
-                        <img src={image15} alt='portfolio' loading='lazy'/>
-                        <img src={image16} alt='portfolio' loading='lazy'/>
-                        <img src={image17} alt='portfolio' loading='lazy'/>
-                        <img src={image18} alt='portfolio' loading='lazy'/>
-                        <img src={image19} alt='portfolio' loading='lazy'/>
-                        <img src={image20} alt='portfolio' loading='lazy'/>
-                        <img src={image21} alt='portfolio' loading='lazy'/>
-                        <img src={image22} alt='portfolio' loading='lazy'/>
-                        <img src={image23} alt='portfolio' loading='lazy'/>
-                        <img src={image24} alt='portfolio' loading='lazy'/>
-                        <img src={image25} alt='portfolio' loading='lazy'/>
-                        <img src={image26} alt='portfolio' loading='lazy'/>
-                        <img src={image27} alt='portfolio' loading='lazy'/>
-                        <img src={image28} alt='portfolio' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[0]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[1]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[2]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[3]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[4]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[5]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[6]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[7]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[8]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[9]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[10]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[11]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[12]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[13]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[14]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[15]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[16]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[17]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[18]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[19]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[20]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[21]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[22]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[23]} alt='our-work-photos' loading='lazy'/>
                     </section>
                     <section className='about-us-desktop-flex'>
                         <section className='portfolio-quote'>
