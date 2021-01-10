@@ -12,6 +12,7 @@
 
 .portfolio-carousel-section {
     margin-bottom: 40px;
+    position: relative;
 }
 
 .portfolio-carousel-section h1 {
@@ -27,6 +28,24 @@
     z-index: 1;
 }
 
+.prev-arrow, .next-arrow {
+    height: 40px!important;
+    width: 40px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.prev-arrow {
+    left: 5px;
+    top: 50%;
+}
+
+.next-arrow {
+    right: 5px;
+    top: 50%;
+}
+
 @media(min-width: 641px){
     .portfolio {
         padding: 150px 35px 100px 35px;
@@ -35,6 +54,14 @@
     .portfolio-heading {
         font-size: 75px;
         margin-bottom: 60px;
+    }
+
+    .prev-arrow {
+        left: 15px;
+    }
+
+    .next-arrow {
+        right: 15px;
     }
 }
 
@@ -61,6 +88,14 @@
 
     .portfolio img {
         height: 575px;
+    }
+
+    .prev-arrow {
+        left: 25px;
+    }
+
+    .next-arrow {
+        right: 25px;
     }
 }
 

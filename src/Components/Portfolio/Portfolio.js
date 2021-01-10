@@ -2,9 +2,34 @@ import React, {useEffect} from 'react';
 import Slider from 'react-slick';
 import {initGA, pageView} from '../../index';
 import {couples, family, newborn, wedding, portrait} from '../../assets/photos';
+import arrowLeft from '../../assets/icons/arrow-left.svg';
+import arrowRight from '../../assets/icons/arrow-right.svg';
 import './Portfolio.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+function NextArrow(props) {
+    const { onClick } = props;
+    return (
+        <img 
+            src={arrowLeft} 
+            alt='Previous'
+            className='prev-arrow' 
+            onClick={onClick}
+        />
+    );
+  }
+  
+function PrevArrow(props) {
+    const { onClick } = props;
+    return (
+        <img 
+            src={arrowRight} 
+            alt='Next'
+            className='next-arrow'
+            onClick={onClick}/>
+    );
+  }
 
 const Portfolio = props => {
     useEffect(() => {
@@ -17,12 +42,13 @@ const Portfolio = props => {
     const settings = {
         infinite: true,
         slidesToShow: 1,
-        arrows: false,
         slidesToScroll: 1,
         centerMode: true,
         focusOnSelect: true,
         variableWidth: true,
         adaptiveHeight: true,
+        nextArrow: <PrevArrow />,
+        prevArrow: <NextArrow />,
         responsive: [
             {
               breakpoint: 1024,
