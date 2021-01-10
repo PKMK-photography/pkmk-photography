@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
 import {HashRouter, BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 const Router = process.env.NODE_ENV === 'development' ? HashRouter : BrowserRouter;
+
+export const initGA = (trackingID) => {           
+  ReactGA.initialize(trackingID); 
+}
+
+export const pageView = () => {  
+  ReactGA.pageview(window.location.pathname + window.location.search); 
+}
 
 ReactDOM.render(
   <React.StrictMode>

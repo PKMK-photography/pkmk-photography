@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import Slider from 'react-slick';
+import {initGA, pageView} from '../../index';
 import {couples, family, newborn, wedding, portrait} from '../../assets/photos';
 import './Portfolio.css';
 import "slick-carousel/slick/slick.css";
@@ -7,8 +8,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Portfolio = props => {
     useEffect(() => {
-        document.title = 'Portfolio - P K M K // photography'
-        window.scrollTo(0,0)
+        document.title = 'Portfolio - P K M K // photography';
+        window.scrollTo(0,0);
+        initGA('UA-186933835-1');
+        pageView();
     }, [])
 
     const settings = {
@@ -42,7 +45,7 @@ const Portfolio = props => {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: false,
-                adaptiveHeight: true
+                adaptiveHeight: true,
               }
             }
           ]
@@ -52,19 +55,19 @@ const Portfolio = props => {
         <main className='portfolio'>
             <h1 className='portfolio-heading'>Portfolio</h1>
             <section className='portfolio-carousel-section'>
-                <h1>Couples</h1>
-                <Slider {...settings}>
-                    {couples.map((couple, i) => (
-                        <img key={i} src={couple} alt={`Couples ${i + 1}`} loading='lazy'/>
-                    ))}
-                </Slider>
-            </section>
-            <section className='portfolio-carousel-section'>
                 <h1>Weddings</h1>
                 <Slider {...settings}>
                     {wedding.map((wedding, i) => (
                         <img key={i} src={wedding} alt={`Wedding ${i + 1}`} loading='lazy'/>
                     ))} 
+                </Slider>
+            </section>
+            <section className='portfolio-carousel-section'>
+                <h1>Couples</h1>
+                <Slider {...settings}>
+                    {couples.map((couple, i) => (
+                        <img key={i} src={couple} alt={`Couples ${i + 1}`} loading='lazy'/>
+                    ))}
                 </Slider>
             </section>
             <section className='portfolio-carousel-section'>

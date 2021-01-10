@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {Parallax} from 'react-parallax';
 import {Link} from 'react-router-dom';
+import {initGA, pageView} from '../../index';
 import homeImage from '../../assets/images/home-image.jpg';
 import image2 from '../../assets/images/image-2.jpg';
 import {images24} from '../../assets/photos';
@@ -8,7 +9,9 @@ import './Home.css';
 
 const Home = props => {
     useEffect(() => {
-        document.title = 'P K M K // photography - Utah Based Photographer'
+        document.title = 'P K M K // photography - Utah Based Photographer';
+        initGA('UA-186933835-1');
+        pageView();
     }, [])
 
     return (
@@ -49,24 +52,24 @@ const Home = props => {
                         <img className='our-work-photos' src={images24[2]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[3]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[4]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[12]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[5]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[6]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[11]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[7]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[22]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[8]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[9]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[10]} alt='our-work-photos' loading='lazy'/>
-                        <img className='our-work-photos' src={images24[11]} alt='our-work-photos' loading='lazy'/>
-                        <img className='our-work-photos' src={images24[12]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[13]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[14]} alt='our-work-photos' loading='lazy'/>
-                        <img className='our-work-photos' src={images24[15]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[16]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[17]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[18]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[19]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[20]} alt='our-work-photos' loading='lazy'/>
+                        <img className='our-work-photos' src={images24[15]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[21]} alt='our-work-photos' loading='lazy'/>
-                        <img className='our-work-photos' src={images24[22]} alt='our-work-photos' loading='lazy'/>
                         <img className='our-work-photos' src={images24[23]} alt='our-work-photos' loading='lazy'/>
                     </section>
                     <section className='about-us-desktop-flex'>

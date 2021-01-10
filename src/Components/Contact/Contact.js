@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import {initGA, pageView} from '../../index';
 import './Contact.css';
 
 const Contact = props => {
@@ -11,8 +12,10 @@ const Contact = props => {
         [messageSent, setMessageSent] = useState(false);
 
     useEffect(() => {
-        document.title = 'Contact - P K M K // photography'
-        window.scrollTo(0,0)
+        document.title = 'Contact - P K M K // photography';
+        window.scrollTo(0,0);
+        initGA('UA-186933835-1');
+        pageView();
     }, [])
 
     const sendMessage = (e) => {
