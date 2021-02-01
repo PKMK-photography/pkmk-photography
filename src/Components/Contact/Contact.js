@@ -18,9 +18,7 @@ const Contact = props => {
         pageView();
     }, [])
 
-    const sendMessage = (e) => {
-        e.preventDefault();
-
+    const sendMessage = () => {
         axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
             .then(() => {
                 setMessageSent(true);
@@ -39,25 +37,30 @@ const Contact = props => {
             </section>
             {!messageSent
                 ? (
-                    <form className='contact-us-form'>
+                    <form 
+                        className='contact-us-form'
+                        name='contact'
+                        method='POST'
+                        data-netlify='true'
+                        data-netlify-honeypot='bot-field'>
                         <label>Name *</label>
                         <div>
                             <section className='name-input'>
-                                <input value={firstName} autoComplete='given-name' required onChange={e => setFirstName(e.target.value)}/>
+                                <input name='first-name' label='first-name' value={firstName} autoComplete='given-name' required onChange={e => setFirstName(e.target.value)}/>
                                 <span className='name-span'>First Name</span>
                             </section>
                             <section className='name-input'>
-                                <input value={lastName} autoComplete='family-name' required onChange={e => setLastName(e.target.value)}/>
+                                <input name='last-name' label='last-name' value={lastName} autoComplete='family-name' required onChange={e => setLastName(e.target.value)}/>
                                 <span className='name-span'>Last Name</span>
                             </section>
                         </div>
                         <label>Email *</label>
-                        <input value={email} required onChange={e => setEmail(e.target.value)}/>
+                        <input name='email' label='email' value={email} required onChange={e => setEmail(e.target.value)}/>
                         <label>Subject *</label>
-                        <input value={subject} required onChange={e => setSubject(e.target.value)}/>
+                        <input name='subject' label='subject' value={subject} required onChange={e => setSubject(e.target.value)}/>
                         <label>Message *</label>
-                        <textarea value={message} required autoComplete='off' onChange={e => setMessage(e.target.value)}/>
-                        <button className='main-button' onClick={sendMessage}>SUBMIT</button>
+                        <textarea name='message' label='message' value={message} required autoComplete='off' onChange={e => setMessage(e.target.value)}/>
+                        <button type='submit' className='main-button' onClick={sendMessage}>SUBMIT</button>
                     </form>
                 )
                 : (
