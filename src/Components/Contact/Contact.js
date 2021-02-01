@@ -18,7 +18,9 @@ const Contact = props => {
         pageView();
     }, [])
 
-    const sendMessage = () => {
+    const sendMessage = (e) => {
+        e.preventDefault()
+
         axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
             .then(() => {
                 setMessageSent(true);
