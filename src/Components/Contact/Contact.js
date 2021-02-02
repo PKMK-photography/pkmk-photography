@@ -18,17 +18,17 @@ const Contact = props => {
         pageView();
     }, [])
 
-    const sendMessage = (e) => {
-        e.preventDefault()
+    // const sendMessage = (e) => {
+    //     e.preventDefault()
 
-        axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
-            .then(() => {
-                setMessageSent(true);
-                setSubject('');
-                setMessage('');
-            })
-            .catch(err => console.log(err))
-    }
+    //     axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
+    //         .then(() => {
+    //             setMessageSent(true);
+    //             setSubject('');
+    //             setMessage('');
+    //         })
+    //         .catch(err => console.log(err))
+    // }
 
     return (
         <main className='contact-us'>
@@ -44,7 +44,8 @@ const Contact = props => {
                         name='contact'
                         method='POST'
                         data-netlify='true'
-                        data-netlify-honeypot='bot-field'>
+                        data-netlify-honeypot='bot-field'
+                    >
                         <input type='hidden' name='form-name' value='contact' />
                         <label>Name *</label>
                         <div>
@@ -63,7 +64,7 @@ const Contact = props => {
                         <input name='subject' label='subject' value={subject} required onChange={e => setSubject(e.target.value)}/>
                         <label>Message *</label>
                         <textarea name='message' label='message' value={message} required autoComplete='off' onChange={e => setMessage(e.target.value)}/>
-                        <button type='submit' className='main-button' onClick={sendMessage}>SUBMIT</button>
+                        <button type='submit' className='main-button'>SUBMIT</button>
                     </form>
                 )
                 : (
