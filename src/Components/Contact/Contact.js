@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-// import axios from 'axios';
 import {initGA, pageView} from '../../index';
 import './Contact.css';
 
@@ -17,18 +16,6 @@ const Contact = props => {
         initGA('UA-186933835-1');
         pageView();
     }, [])
-
-    // const sendMessage = (e) => {
-    //     e.preventDefault()
-
-    //     axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
-    //         .then(() => {
-    //             setMessageSent(true);
-    //             setSubject('');
-    //             setMessage('');
-    //         })
-    //         .catch(err => console.log(err))
-    // }
 
     return (
         <main className='contact-us'>
