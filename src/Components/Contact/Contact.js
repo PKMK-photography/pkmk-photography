@@ -18,9 +18,7 @@ const Contact = props => {
         pageView();
     }, [])
 
-    const sendMessage = (e) => {
-        e.preventDefault()
-
+    const sendMessage = () => {
         axios.post('https://frozen-forest-18172.herokuapp.com/api/email', {firstName, lastName, email, subject, message})
             .then(() => {
                 setMessageSent(true);
@@ -45,6 +43,7 @@ const Contact = props => {
                         method='POST'
                         data-netlify='true'
                         data-netlify-honeypot='bot-field'>
+                        <input type='hidden' name='form-name' value='contact' />
                         <label>Name *</label>
                         <div>
                             <section className='name-input'>
